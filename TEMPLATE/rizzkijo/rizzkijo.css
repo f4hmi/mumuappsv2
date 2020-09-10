@@ -365,11 +365,12 @@ a.blog-link:hover {
     text-decoration: none;
     /*margin: 10px 0 20px;*/
 }
+.main-menu-link.unlink {pointer-events: none;}
 .main-menu-link > img {
     display: block;
     margin: 0 auto 8px;
     width: 100%;
-    padding: 18px;
+    padding: 14px;
     background-color: #ffffff;
     border: 2px solid #ffffff;
     border-radius: 12px;
@@ -591,9 +592,10 @@ ul.lembaga-wrapper > li + li {margin-left: 2px;}
 }
 .icon-delete {
     display: block;
-    width: 20px;
-    height: 20px;
-    line-height: 21px;
+    width: 26px;
+    height: 26px;
+    line-height: 27px;
+    font-size: 20px;
     text-align: center;
     border-radius: 50%;
     background: #ec3333;
@@ -604,9 +606,10 @@ ul.lembaga-wrapper > li + li {margin-left: 2px;}
 }
 .icon-add {
     display: block;
-    width: 20px;
-    height: 20px;
-    line-height: 21px;
+    width: 26px;
+    height: 26px;
+    line-height: 27px;
+    font-size: 20px;
     text-align: center;
     border-radius: 50%;
     background: #4e77ea;
@@ -617,9 +620,10 @@ ul.lembaga-wrapper > li + li {margin-left: 2px;}
 }
 .icon-disabled {
     display: block;
-    width: 20px;
-    height: 20px;
-    line-height: 21px;
+    width: 26px;
+    height: 26px;
+    line-height: 27px;
+    font-size: 20px;
     text-align: center;
     border-radius: 50%;
     background: #b7b7b7;
