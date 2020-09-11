@@ -167,7 +167,8 @@ h1, h2, h3, h4, h5, h6 {font-weight: bold;}
 .inline-block {display: inline-block;width: auto;}
 img {max-width: 100%;}
 .full-height {height: 100%;}
-a {
+a, a:hover {
+    color: #09A59D;
     cursor: pointer;
     text-decoration: none !important;
 }
@@ -370,7 +371,7 @@ a.blog-link:hover {
     display: block;
     margin: 0 auto 8px;
     width: 100%;
-    padding: 14px;
+    padding: 12px;
     background-color: #ffffff;
     border: 2px solid #ffffff;
     border-radius: 12px;
@@ -384,13 +385,14 @@ a.blog-link:hover {
     border-radius: 50%;
     border: none;
 }
-.pendanaan-wrapper, .pendanaan-wrapper:hover {
+.pendanaan-wrapper, .pendanaan-wrapper:hover,
+.berita-wrapper, .berita-wrapper:hover {
     display: block;
     color: inherit;
     text-decoration: none !important;
 }
 .pendanaan-wrapper + .pendanaan-wrapper {margin-top: 32px;}
-.program .owl-stage {padding-left: 20px !important;}
+.program .owl-stage, .berita .owl-stage {padding-left: 20px !important;}
 .dana-flyer {
     position: relative;
     padding-top: 45%;
@@ -398,12 +400,17 @@ a.blog-link:hover {
     border-radius: 8px;
     overflow: hidden;
 }
+.dana-flyer.berita-flyer {padding-top: 52%;}
 .dana-populer .dana-flyer {padding-top: 55%}
 .penggalang {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+}
+.berita-text {
+    font-size: 18px;
+    font-weight: 500;
 }
 .dana-flyer > .penggalang {
     position: absolute;
@@ -586,10 +593,12 @@ ul.lembaga-wrapper > li > a > img {
     margin-right: 4px;
 }
 ul.lembaga-wrapper > li + li {margin-left: 2px;}
-.program {
+.program, .promo, .berita {
     margin: 0 -20px;
     width: auto !important;
 }
+.promo .owl-stage-outer, .berita .owl-stage-outer {margin-bottom: 8px;}
+.promo .owl-stage-outer img {border-radius: 8px;}
 .icon-delete {
     display: block;
     width: 26px;
@@ -603,6 +612,7 @@ ul.lembaga-wrapper > li + li {margin-left: 2px;}
     position: absolute;
     top: 0px;
     right: -5px;
+    box-shadow: 4px 4px 8px rgb(0 0 0 / .2);
 }
 .icon-add {
     display: block;
@@ -617,6 +627,7 @@ ul.lembaga-wrapper > li + li {margin-left: 2px;}
     position: absolute;
     top: 0px;
     right: -5px;
+    box-shadow: 4px 4px 8px rgb(0 0 0 / .2);
 }
 .icon-disabled {
     display: block;
@@ -631,6 +642,7 @@ ul.lembaga-wrapper > li + li {margin-left: 2px;}
     position: absolute;
     top: 0px;
     right: -5px;
+    box-shadow: 4px 4px 8px rgb(0 0 0 / .2);
 }
 .menu-kategori > a {
     padding: 0 0 6px;
@@ -683,4 +695,14 @@ ul.lembaga-wrapper > li + li {margin-left: 2px;}
 .nominnal-zakat.selected {
     background-color: #09a59d;
     color: #ffffff;
+}
+.author-box img {
+    display: inline-block !important;
+    max-width: 16px;
+    max-height: 16px;
+}
+.author-box .text-smaller > img {
+    display: inline-block !important;
+    max-width: 15px;
+    max-height: 15px;
 }
