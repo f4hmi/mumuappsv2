@@ -181,7 +181,7 @@ a.blog-link {
     color: inherit;
     text-decoration: none;
     background-color: #ffffff;
-    border-radius: 10px;
+    border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 10px 25px -5px rgba(0,0,0,.1);
 }
@@ -212,8 +212,8 @@ a.blog-link:hover {
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {color: #515151;}
 .card {
     border: none;
-    border-radius: 10px;
-    box-shadow: 0 5px 10px -5px rgba(0,0,0,.15);
+    border-radius: 8px;
+    box-shadow: 4px 4px 8px rgb(0 0 0 / .08);
     margin-bottom: 1rem;
 }
 .card-body {padding: 13px;}
@@ -362,9 +362,10 @@ a.blog-link:hover {
     display: block;
     text-align: center;
     /*padding: 4px;*/
+    line-height: 1;
     color: inherit;
     text-decoration: none;
-    /*margin: 10px 0 20px;*/
+    margin: 0 0 20px;
 }
 .main-menu-link.unlink {pointer-events: none;}
 .main-menu-link > img {
@@ -392,7 +393,7 @@ a.blog-link:hover {
     text-decoration: none !important;
 }
 .pendanaan-wrapper + .pendanaan-wrapper {margin-top: 32px;}
-.program .owl-stage, .berita .owl-stage {padding-left: 20px !important;}
+.program .owl-stage, .berita .owl-stage, .tokomu-wrapper .owl-stage {padding-left: 20px !important;}
 .dana-flyer {
     position: relative;
     padding-top: 45%;
@@ -577,10 +578,9 @@ ul.lembaga-wrapper {
 ul.lembaga-wrapper > li {display: inline-block;}
 ul.lembaga-wrapper > li > a {
     display: block;
-    padding: 4px 8px;
+    padding: 6px 12px;
     border-radius: 8px;
-    border: 1px solid #09A59D;
-    font-size: 14px;
+    border: 2px solid #09A59D;
     color: #09A59D;
 }
 ul.lembaga-wrapper > li > a.active {
@@ -593,11 +593,12 @@ ul.lembaga-wrapper > li > a > img {
     margin-right: 4px;
 }
 ul.lembaga-wrapper > li + li {margin-left: 2px;}
-.program, .promo, .berita {
+.program, .promo, .berita, .tokomu-wrapper {
     margin: 0 -20px;
     width: auto !important;
 }
-.promo .owl-stage-outer, .berita .owl-stage-outer {margin-bottom: 8px;}
+.promo .owl-stage-outer, .berita .owl-stage-outer,
+.tokomu-wrapper .owl-stage-outer {margin-bottom: 8px;}
 .promo .owl-stage-outer img {border-radius: 8px;}
 .icon-delete {
     display: block;
@@ -705,4 +706,8 @@ ul.lembaga-wrapper > li + li {margin-left: 2px;}
     display: inline-block !important;
     max-width: 15px;
     max-height: 15px;
+}
+img.tokomu {
+    width: 132px;
+    margin-bottom: 12px;
 }
