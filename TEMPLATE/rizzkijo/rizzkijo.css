@@ -166,7 +166,10 @@ h1, h2, h3, h4, h5, h6 {font-weight: bold;}
 .lh-1 {line-height: 1 !important;}
 .lh-n {line-height: normal !important;}
 .inline-block {display: inline-block;width: auto;}
-img {max-width: 100%;}
+img {
+    max-width: 100%;
+    margin-bottom: 12px;
+}
 .full-height {height: 100%;}
 a, a:hover {
     color: #09A59D;
@@ -766,4 +769,53 @@ img.img-program {width: 100% !important;}
 .nav-pills.mumu-nav-pills > li:last-child:not(:first-child) > .nav-link {
     border-top-right-radius: 6px;
     border-bottom-right-radius: 6px;
+}
+.update-box {
+    border: 1px solid rgb(0 0 0 / .44);
+    padding: 20px;
+    border-radius: 6px;
+    margin-bottom: 12px;
+}
+.form-control {
+    border-width: 2px;
+    height: auto;
+    border-radius: 6px;
+}
+.input-group-text {
+    border-width: 2px;
+    border-radius: 6px;
+}
+.metode-bayar-wrapper {
+    display: block;
+    cursor: pointer;
+}
+.metode-bayar-wrapper > input[type="radio"] {display: none;}
+.metode-bayar-wrapper > .metode-bayar-box {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    border: 2px solid #09A59D;
+    border-radius: 8px;
+    padding: 16px;
+    -webkit-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+}
+.metode-bayar-wrapper > input[type="radio"]:checked + .metode-bayar-box {
+    background-color: #09A59D;
+    color: #ffffff;
+}
+.metode-bayar-box > .img-metode {
+    -ms-flex: 0 0 50px;
+    flex: 0 0 50px;
+    max-width: 50px;
+    height: 50px;
+    margin: 0;
+}
+.metode-bayar-box > .metode-bayar-text {
+    -ms-flex: 0 0 calc(100% - 50px);
+    flex: 0 0 calc(100% - 50px);
+    max-width: calc(100% - 50px);
+    padding-left: 32px;
 }
