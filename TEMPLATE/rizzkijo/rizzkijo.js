@@ -9,3 +9,6 @@ $(document).ready(function(){
 	    window.history.back();
 	});
 })
+$(window).scroll(function(){
+	$('#detailProgramBar').toggleClass('shrink', $(this).scrollTop() > 56);
+});

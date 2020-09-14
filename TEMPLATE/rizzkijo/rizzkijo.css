@@ -28,6 +28,7 @@ body {
     color: #515151;
     padding: 56px 0 64px;
 }
+body.detail-program {padding-top: 0;}
 .no-margin {margin: 0 !important;}
 .no-padding {padding: 0 !important;}
 .no-border {border: none !important;}
@@ -231,6 +232,7 @@ a.blog-link:hover {
     position: relative;
     overflow: hidden;
     border-radius: 6px;
+    border-width: 2px;
     /*box-shadow: 0 10px 15px -10px rgba(0,0,0,.35);*/
     -webkit-transition: all 0.25s ease-in-out;
     transition: all 0.25s ease-in-out;
@@ -272,8 +274,8 @@ a.blog-link:hover {
     z-index: 1;
 }
 .btn-main, .btn-main:hover {
-    background: #09A59D;
-    color: #ffffff;
+    background: #09A59D !important;
+    color: #ffffff !important;
 }
 .btn-outline, .btn-outline:hover {
     background: transparent;
@@ -282,6 +284,18 @@ a.blog-link:hover {
 }
 .btn.btn-outline:hover:before {display: none;}
 .btn-login {border-radius: 20px;}
+.btn-facebook, .btn-facebook:hover {
+    background-color: #3a559f;
+    color: #ffffff;
+}
+.btn-google, .btn-google:hover {
+    background-color: #e33e2b;
+    color: #ffffff;
+}
+.btn-whatsapp, .btn-whatsapp:hover {
+    background-color: #1bd741;
+    color: #ffffff;
+}
 .form-control {border-radius: 6px;}
 .color-main {color: #09A59D !important;}
 .color-second {color: #213446 !important;}
@@ -660,7 +674,7 @@ ul.lembaga-wrapper > li + li {margin-left: 2px;}
     transform: rotate(180deg);
 }
 .back-link, .back-link:hover {
-    color: #ffffff;
+    color: inherit;
     text-decoration: none;
     font-size: 27px;
     vertical-align: sub;
@@ -710,4 +724,46 @@ ul.lembaga-wrapper > li + li {margin-left: 2px;}
 img.tokomu {
     width: 132px;
     margin-bottom: 12px;
+}
+body.detail-program .top-bar {
+    background-color: transparent;
+    color: #ffffff;
+    -webkit-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+}
+body.detail-program .top-bar .program-title {
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    text-overflow: ellipsis;
+    width: calc(100% - 44px);
+    float: right;
+    margin-top: 8px;
+    opacity: 0;
+}
+body.detail-program .top-bar.shrink {
+    background-color: #ffffff;
+    color: inherit;
+    box-shadow: 0 8px 12px rgb(0 0 0 / .08);
+}
+body.detail-program .top-bar.shrink .program-title {opacity: 1;}
+img.img-program {width: 100% !important;}
+.nav-pills.mumu-nav-pills > li + li > .nav-link {border-left: none;}
+.nav-pills.mumu-nav-pills .nav-link {
+    border: 2px solid #09a59d;
+    border-radius: 0;
+    color: #09a59d;
+}
+.nav-pills.mumu-nav-pills .nav-link.active,
+.nav-pills.mumu-nav-pills .show > .nav-link {
+    background-color: #09a59d;
+    color: #ffffff;
+}
+.nav-pills.mumu-nav-pills > li:first-child:not(:last-child) > .nav-link {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+.nav-pills.mumu-nav-pills > li:last-child:not(:first-child) > .nav-link {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
 }
