@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Zakat - Mumu App</title>
+  <title>Akikah - Mumu App</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -33,65 +33,60 @@
       <a class="back-link" href="#" id="backLink">
         <i class="uil uil-angle-left"></i>
       </a>
-      <span class="page-title">Zakat</span>
+      <span class="page-title">Akikah Baznas</span>
     </div>
 
     <div class="content bg-white">
       <form>
         <div class="form-group">
-          <label>Jenis Zakat</label>
+          <label>Mitra</label>
+          <input type="text" class="form-control" value="Baznas" disabled>
+        </div>
+        <div class="form-group">
+          <label>Jenis Akikah</label>
           <select class="custom-select">
-            <option value="">Zakat Fitrah (Ramadhan)</option>
-            <option value="">Zakat Harta (Setahun sekali)</option>
+            <option value="akikahbaznasperempuan|2550000">1 ekor Domba/ Kambing berat 20kg - 23kg per kambing (Anak Perempuan) - Rp 2.550.000,-</option>
+            <option value="akikahbaznaslakilaki|5100000">2 ekor Domba/ Kambing berat 20kg - 23kg per kambing (Anak Laki-Laki) - Rp 5.100.000,-</option>
+          </select>
+        </div>
+
+        <div class="medium mt-32 mb-12">Biodata Akikah</div>
+        <div class="form-group">
+          <label>Nama Bayi</label>
+          <input type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label>Jenis Kelamin</label>
+          <select class="custom-select">
+            <option value="Laki-laki">Laki-laki</option>
+            <option value="Perempuan">Perempuan</option>
           </select>
         </div>
         <div class="form-group">
-          <label>Donatur</label>
-          <input type="text" class="form-control" value="Profile Name">
+          <label>Tempat Lahir</label>
+          <input type="text" class="form-control">
         </div>
         <div class="form-group">
-          <div class="custom-control custom-checkbox">
-            <input type="checkbox" class="custom-control-input" id="utk-org">
-            <label class="custom-control-label" for="utk-org">Saya menunaikan zakat untuk orang lain</label>
-          </div>
-        </div>
-        <div class="untuk-org">
-          <div class="bg-darker pt-20 pr-20 pb-20 pl-20 mb-16">
-            <div class="form-group">
-              <label>Nama</label>
-              <input type="text" class="form-control">
-            </div>
-            <div class="form-group">
-              <label>No. Ponsel</label>
-              <input type="text" class="form-control">
-            </div>
-          </div>
+          <label>Tanggal Lahir</label>
+          <input type="text" class="form-control">
         </div>
         <div class="form-group">
-          <label>Nominal Zakat</label>
-          <input type="text" class="form-control" placeholder="Masukkan nominal atau klik icon di bawah">
+          <label>Ref. Tgl Pelaksanaan Akikah</label>
+          <input type="text" class="form-control">
         </div>
-        <div class="row">
-          <div class="col-6">
-            <div class="nominal-zakat mb-12">
-              Rp 10.000
-            </div>
-          </div>
-          <div class="col-6">
-            <div class="nominal-zakat mb-12">
-              Rp 20.000
-            </div>
-          </div>
-          <div class="col-6">
-            <div class="nominal-zakat selected">
-              Rp 50.000
-            </div>
-          </div>
-          <div class="col-6">
-            <div class="nominal-zakat">
-              Rp 100.000
-            </div>
-          </div>
+
+        <div class="medium mt-32 mb-12">Biodata Orangtua</div>
+        <div class="form-group">
+          <label>Nama Ayah</label>
+          <input type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label>Nama Ibu</label>
+          <input type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label>Alamat</label>
+          <textarea class="form-control" rows="3"></textarea>
         </div>
       </form>
     </div>
@@ -362,7 +357,7 @@
 
   <div class="main-navigation">
     <div class="wrapper">
-      <a href="proses-zakat.html" class="btn btn-main btn-block"><span><i class="uil uil-check"></i> Proses</span></a>
+      <a href="akikah-bayar.html" class="btn btn-main btn-block"><span><i class="uil uil-arrow-right"></i> Lanjutkan Pembayaran</span></a>
     </div>
   </div>
 

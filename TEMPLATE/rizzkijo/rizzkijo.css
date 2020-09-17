@@ -702,7 +702,7 @@ ul.lembaga-wrapper > li + li {margin-left: 2px;}
     color: #ffffff;
 }
 .untuk-org > div {border-radius: 6px;}
-.nominnal-zakat {
+.nominal-zakat {
     border: 2px solid #09a59d;
     color: #09a59d;
     padding: 5px;
@@ -710,7 +710,7 @@ ul.lembaga-wrapper > li + li {margin-left: 2px;}
     text-align: center;
     cursor: pointer;
 }
-.nominnal-zakat.selected {
+.nominal-zakat.selected {
     background-color: #09a59d;
     color: #ffffff;
 }
@@ -819,3 +819,4 @@ img.img-program {width: 100% !important;}
     max-width: calc(100% - 50px);
     padding-left: 32px;
 }
+.img-kenapa {height: 100px;}
