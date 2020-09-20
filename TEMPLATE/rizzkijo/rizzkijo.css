@@ -279,6 +279,7 @@ a.blog-link:hover {
 .btn-main, .btn-main:hover {
     background: #09A59D !important;
     color: #ffffff !important;
+    border-color: transparent;
 }
 .btn-outline, .btn-outline:hover {
     background: transparent;
@@ -322,6 +323,7 @@ a.blog-link:hover {
 }
 .top-bar .brand > img {
     height: 40px;
+    margin: 0;
 }
 .top-bar .form-control {
     background-color: rgb(0 0 0 / .16);
@@ -409,6 +411,7 @@ a.blog-link:hover {
     color: inherit;
     text-decoration: none !important;
 }
+.berita-wrapper + .berita-wrapper {margin-top: 12px;}
 .pendanaan-wrapper + .pendanaan-wrapper {margin-top: 32px;}
 .program .owl-stage, .berita .owl-stage, .tokomu-wrapper .owl-stage {padding-left: 20px !important;}
 .dana-flyer {
@@ -418,8 +421,7 @@ a.blog-link:hover {
     border-radius: 8px;
     overflow: hidden;
 }
-.dana-flyer.berita-flyer {padding-top: 52%;}
-.dana-populer .dana-flyer {padding-top: 55%}
+.dana-flyer.berita-flyer {padding-top: 60%;}
 .penggalang {
     display: -ms-flexbox;
     display: flex;
@@ -481,6 +483,10 @@ a.blog-link:hover {
     font-weight: 700;
 }
 .search-box {position: relative;}
+.search-box.search-berita {
+    display: inline-block;
+    width: calc(100% - 60px);
+}
 .search-box > .search-icon {
     position: absolute;
     top: 6px;
@@ -503,7 +509,7 @@ a.blog-link:hover {
     width: calc(100% - 40px);
     z-index: 9;
 }
-.dompet-inner, .dompet-item {
+.dompet-inner, .dompet-item, .user-box {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
@@ -516,6 +522,19 @@ a.blog-link:hover {
     max-width: 40px;
     height: 40px;
     border-radius: 50%;
+}
+.user-box > .user-img {
+    -ms-flex: 0 0 52px;
+    flex: 0 0 52px;
+    max-width: 52px;
+    height: 52px;
+    border-radius: 50%;
+}
+.user-box > .user-name {
+    -ms-flex: 0 0 calc(100% - 52px);
+    flex: 0 0 calc(100% - 52px);
+    max-width: calc(100% - 52px);
+    padding-left: 16px;
 }
 .dompet-img {border-radius: 8px;}
 .dompet-inner-detail, .dompet-item-detail {
@@ -608,6 +627,7 @@ ul.lembaga-wrapper > li > a > img {
     max-width: 16px;
     max-height: 16px;
     margin-right: 4px;
+    margin-bottom: 0;
 }
 ul.lembaga-wrapper > li + li {margin-left: 2px;}
 .program, .promo, .berita, .tokomu-wrapper {
@@ -714,10 +734,15 @@ ul.lembaga-wrapper > li + li {margin-left: 2px;}
     background-color: #09a59d;
     color: #ffffff;
 }
+.author-box {
+    font-size: 16px !important;
+    font-weight: 400 !important;
+}
 .author-box img {
     display: inline-block !important;
     max-width: 16px;
     max-height: 16px;
+    margin: 0;
 }
 .author-box .text-smaller > img {
     display: inline-block !important;
@@ -820,3 +845,19 @@ img.img-program {width: 100% !important;}
     padding-left: 32px;
 }
 .img-kenapa {height: 100px;}
+.splash-img {width: 160px;}
+.login-logo {
+    display: block;
+    width: 100px;
+    margin: 32px auto 0; 
+}
+.img-login {
+    display: block;
+    margin: 0 auto 40px;
+    width: 340px;
+}
+.otp-field {
+    width: 160px;
+    margin: 0 auto;
+    text-align: center;
+}

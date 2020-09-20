@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Beranda - Mumu App</title>
+  <title>Daftar - Mumu App</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -25,11 +25,34 @@
 
 </head>
 
-<body class="bg-main full-height">
+<body class="full-height bg-white">
 
-  <div class="wrapper full-height valign-wrapper">
-    <div class="valign-box text-center">
-      <img src="img/splash-screen.png" class="splash-img">
+  <div class="wrapper full-height">
+    <div class="content full-height valign-wrapper">
+      <div class="valign-box">
+        <img src="img/img-daftar.svg" class="img-login">
+        <div class="h2 bold mb-4">Daftar</div>
+        <div class="text-muted mb-20">Lengkapi data di bawah ini untuk mendaftar.</div>
+        <form>
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Nama">
+          </div>
+
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="No. Handphone">
+          </div>
+
+          <div class="text-center">
+            <a href="otp-daftar.html" class="btn btn-main"><span><i class="uil uil-arrow-right"></i> Selanjutnya</span></a>
+          </div>
+
+          <div class="text-center mt-32">
+            Sudah punya akun? <a href="login.html">Masuk</a>
+          </div>
+        </form>
+
+        <img src="img/logomumu-dark.png" class="login-logo">
+      </div>
     </div>
   </div>
 
@@ -38,12 +61,6 @@
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="vendor/owl-carousel/owl.carousel.min.js"></script>
   <script src="rizzkijo/rizzkijo.js"></script>
-
-  <script type="text/javascript">
-    window.setTimeout(function() {
-      window.location.href = 'beranda.html';
-    }, 3500);
-  </script>
 
 </body>
 
