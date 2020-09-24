@@ -413,7 +413,8 @@ a.blog-link:hover {
 }
 .berita-wrapper + .berita-wrapper {margin-top: 12px;}
 .pendanaan-wrapper + .pendanaan-wrapper {margin-top: 32px;}
-.program .owl-stage, .berita .owl-stage, .tokomu-wrapper .owl-stage {padding-left: 20px !important;}
+.program .owl-stage, .berita .owl-stage, .tokomu-wrapper .owl-stage, 
+.promo .owl-stage {padding-left: 20px !important;}
 .dana-flyer {
     position: relative;
     padding-top: 45%;
