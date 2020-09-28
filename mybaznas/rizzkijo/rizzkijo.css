@@ -221,6 +221,7 @@ a.blog-link:hover {
     margin-bottom: 1rem;
 }
 .card-body {padding: 13px;}
+div.card-img-top {padding-top: 120%;}
 .bg-main {
     background-color: #005331 !important;
     color: #ffffff;
