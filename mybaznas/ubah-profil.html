@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en" class="full-height">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Ubah Profil - MyBaznas</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="rizzkijo/rizzkijo.css" rel="stylesheet">
+  <link href="vendor/owl-carousel/owl.carousel.min.css" rel="stylesheet">
+  <link href="vendor/owl-carousel/owl.theme.default.min.css" rel="stylesheet">
+
+  <link rel="icon" href="img/baznas.png" type="image/x-icon">
+
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.0/css/line.css">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.0/css/solid.css">
+  <link href="vendor/datepicker/css/gijgo.min.css" rel="stylesheet">
+
+</head>
+
+<body class="bg-white">
+
+  <div class="wrapper full-height">
+    <!-- Navigation -->
+    <div class="top-bar bg-main">
+      <a class="back-link" href="#" id="backLink">
+        <i class="uil uil-angle-left"></i>
+      </a>
+      <span class="page-title">Ubah Profil</span>
+    </div>
+
+    <form>
+      <div class="content bg-white">
+        <ul class="nav nav-pills nav-fill mumu-tab mb-20" id="myTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <a class="nav-link active" href="#info" id="info-tab" data-toggle="tab" role="tab" aria-controls="info" aria-selected="true">Info Pribadi</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link" href="#alamat" id="alamat-tab" data-toggle="tab" role="tab" aria-controls="alamat" aria-selected="true">Alamat</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link" href="#rekening" id="rekening-tab" data-toggle="tab" role="tab" aria-controls="rekening" aria-selected="true">Rekening Bank</a>
+          </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade show active" id="info" role="tabpanel" aria-labelledby="info-tab">
+            <div class="form-group">
+              <label>Nama</label>
+              <input type="text" class="form-control" placeholder="Ketik nama lengkap Anda">
+            </div>
+            <div class="form-group">
+              <label>Nomor NIK</label>
+              <input type="text" class="form-control" placeholder="Nomor KTP">
+            </div>
+            <div class="form-group">
+              <label>Nomor NPWZ</label>
+              <input type="text" class="form-control" placeholder="Nomor NPWZ">
+            </div>
+            <div class="form-group">
+              <label>Tempat Lahir</label>
+              <input type="text" class="form-control" placeholder="Tempat Lahir">
+            </div>
+            <div class="form-group">
+              <label>Tanggal Lahir</label>
+              <input type="text" id="tglLahir" class="form-control" placeholder="Tanggal Lahir">
+            </div>
+            <div class="form-group">
+              <label>Jenis Kelamin</label>
+              <select class="custom-select">
+                <option value="">Pilih Jenis Kelamin</option>
+                <option value="">Laki-laki</option>
+                <option value="">Perempuan</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Status Perkawinan</label>
+              <select class="custom-select">
+                <option value="">Pilih Status Perkawinan</option>
+                <option value="">Menikah</option>
+                <option value="">Single</option>
+                <option value="">Bercerai</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Pendidikan Terakhir</label>
+              <input type="text" class="form-control">
+            </div>
+            <div class="form-group">
+              <label>Agama</label>
+              <select class="custom-select">
+                <option value="">Pilih Agama</option>
+                <option value="">Islam</option>
+                <option value="">Kristen</option>
+                <option value="">Hindu</option>
+                <option value="">Buddha</option>
+                <option value="">Konghucu</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Nomor Handphone</label>
+              <input type="text" class="form-control">
+            </div>
+            <div class="form-group">
+              <label>Pekerjaan</label>
+              <input type="text" class="form-control">
+            </div>
+            <div class="form-group">
+              <label>Pendapatan Kotor per Tahun</label>
+              <input type="text" class="form-control">
+            </div>
+            <div class="form-group mb-0">
+              <label>Sumber Pendapatan</label>
+              <input type="text" class="form-control">
+            </div>
+          </div>
+          <div class="tab-pane fade" id="alamat" role="tabpanel" aria-labelledby="alamat-tab">
+            <div class="form-group">
+              <label>Alamat Sesuai KTP</label>
+              <textarea class="form-control" rows="3"></textarea>
+            </div>
+            <div class="form-group mb-0">
+              <label>Alamat Surat Menyurat</label>
+              <textarea class="form-control" rows="3"></textarea>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="rekening" role="tabpanel" aria-labelledby="rekening-tab">
+            <div class="form-group">
+              <label>Bank</label>
+              <select class="custom-select">
+                <option value="">Pilih Bank</option>
+                <option value="">Bank Syariah Mandiri</option>
+                <option value="">BRI Syariah</option>
+                <option value="">Bank Mandiri</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Nama Lengkap</label>
+              <input type="text" class="form-control">
+            </div>
+            <div class="form-group">
+              <label>Nomor Rekening</label>
+              <input type="text" class="form-control">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main-navigation">
+        <div class="wrapper">
+          <button class="btn btn-main btn-block"><span><i class="uil uil-save"></i> Simpan</span></button>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.slim.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="vendor/owl-carousel/owl.carousel.min.js"></script>
+  <script src="rizzkijo/rizzkijo.js"></script>
+  <script src="vendor/datepicker/js/gijgo.min.js"></script>
+
+  <script type="text/javascript">
+    $('#tglLahir').datepicker({
+      uiLibrary: 'bootstrap4',
+      format: 'dd-mm-yyyy',
+      autoclose: true
+    });
+  </script>
+
+</body>
+
+</html>
