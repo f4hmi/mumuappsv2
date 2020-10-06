@@ -965,6 +965,14 @@ img.img-program {width: 100% !important;}
     height: calc(100% - 48px);
     padding-left: 12px;
 }
+.ubah-profil > .nav-pills {
+    position: sticky;
+    top: 56px;
+    margin: -20px -20px 0;
+    padding: 20px;
+    background-color: #ffffff;
+    z-index: 9;
+}
 
 
 /* Raudha CSS */
