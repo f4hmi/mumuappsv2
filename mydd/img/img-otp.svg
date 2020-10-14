@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2019 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="78.5471mm" height="57.6348mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 26375.03 19352.97"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <font id="FontID0" horiz-adv-x="645" font-variant="normal" style="fill-rule:nonzero" font-weight="400">
+	<font-face 
+		font-family="Nirmala UI">
+		<font-face-src>
+			<font-face-name name="Nirmala UI"/>
+		</font-face-src>
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="*" horiz-adv-x="417" d="M380.834 539.005l-133.839 -27.3339 92.8383 -118.666 -53.6669 -37.0083 -76.169 129.341 -77.159 -129.341 -53.6669 37.0083 92.6661 118.666 -134.668 27.3339 21.8348 61.1568 127.996 -48.3293 -11.1703 148.335 67.3339 0 -11.1595 -148.335 128.329 48.3293 20.5004 -61.1568z"/>
+  </font>
+  <style type="text/css">
+   <![CDATA[
+    @font-face { font-family:"Nirmala UI";font-variant:normal;font-weight:normal;src:url("#FontID0") format(svg)}
+    .fil6 {fill:#333333}
+    .fil5 {fill:#FEFEFE}
+    .fil1 {fill:#1F7E4E;fill-opacity:0.200000}
+    .fil4 {fill:#332C2B;fill-opacity:0.200000}
+    .fil0 {fill:#1F7E4E;fill-opacity:0.301961}
+    .fil3 {fill:url(#id0)}
+    .fil2 {fill:url(#id1)}
+    .fnt0 {font-weight:normal;font-size:3120.29px;font-family:'Nirmala UI'}
+   ]]>
+  </style>
+  <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="13620.33" y1="12418.25" x2="13620.33" y2="20466.64">
+   <stop offset="0" style="stop-opacity:1; stop-color:#1F7E4E"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#19613D"/>
+  </linearGradient>
+  <linearGradient id="id1" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="13689.36" y1="3852.17" x2="13689.36" y2="6844.8">
+  </linearGradient>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2143070316352">
+   <path class="fil0" d="M10078.19 16173.78c-7490.78,2007.13 -10756.57,-8816 -2738.94,-11781.96 3208.4,-1186.87 5065.1,2308.83 8428.37,793.5 19855.17,-8945.88 7762.03,7384.17 -5689.43,10988.47z"/>
+   <path class="fil1" d="M20153.72 3671.89c-15488.64,3011.1 -14921.13,5696.41 -13534.13,8979.9 8085.13,19139.98 30569.8,-12291.75 13534.13,-8979.9z"/>
+   <path class="fil1" d="M13745.34 6456.26c-8848.2,553.88 -16023.92,-4059.55 -13070.54,2294.56 11861.34,25519.58 26922.06,-3161.63 13070.54,-2294.56z"/>
+   <path class="fil2" d="M11692.71 7137.5c-834.73,-615.26 -1382.6,-1597.03 -1382.6,-2713.42 0,-1866.37 1512.88,-3379.25 3379.45,-3379.25 1866.2,0 3379.25,1512.88 3379.25,3379.25 0,1116.39 -548.07,2098.16 -1382.6,2713.42l1473.87 0c588.47,-751.09 953.57,-1685.04 953.57,-2713.42 0,-2443.28 -1980.8,-4424.08 -4424.08,-4424.08 -2443.48,0 -4424.45,1980.8 -4424.45,4424.08 0,1028.38 365.23,1962.33 953.57,2713.42l1474.03 0z"/>
+   <path class="fil3" d="M14338.91 10102.7l0 2522.73c0,187.3 -152.04,339.35 -339.35,339.35l-620.1 0c-187.47,0 -339.28,-152.04 -339.28,-339.35l0 -2522.73c-416.88,-232.9 -709.82,-662.91 -706.76,-1175.22 4.2,-719.09 596.36,-1326.79 1314.97,-1347.95 768.04,-22.63 1397.24,592.63 1397.24,1355.64 0,508.92 -292.17,935.84 -706.73,1167.53zm3898.07 -4633.58l-9233.18 0c-368.93,0 -668.05,299.08 -668.05,667.85l0 8748.77c0,369.23 299.12,668.35 668.05,668.35l9233.18 0c368.76,0 668.01,-299.12 668.01,-668.35l0 -8748.77c0,-368.76 -299.25,-667.85 -668.01,-667.85z"/>
+   <path class="fil4" d="M5958.96 13901.21l15322.83 0c258.66,0 470.3,211.65 470.3,470.34l0 2323.37c0,258.69 -211.65,470.34 -470.3,470.34l-15322.83 0c-258.66,0 -470.3,-211.65 -470.3,-470.34l0 -2323.37c0,-258.69 211.65,-470.34 470.3,-470.34z"/>
+   <rect class="fil5" x="5488.64" y="13542.23" width="16263.46" height="3264.05" rx="531.22" ry="531.16"/>
+   <text x="7000.74" y="16822.05"  class="fil6 fnt0">******</text>
+  </g>
+ </g>
+</svg>
