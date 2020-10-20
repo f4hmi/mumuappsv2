@@ -8,6 +8,12 @@ $(document).ready(function(){
 	$("#backLink").click(function(){           
 	    window.history.back();
 	});
+
+	$("#search-campaign").click(function(){           
+	    $('.search-box').toggleClass('d-none');
+	    $('.uil-cari').toggleClass('d-none');
+	    $('.uil-times').toggleClass('d-none');
+	});
 })
 $(window).scroll(function(){
 	$('#detailProgramBar').toggleClass('shrink', $(this).scrollTop() > 56);

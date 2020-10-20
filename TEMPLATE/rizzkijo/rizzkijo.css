@@ -28,7 +28,7 @@ body {
     color: #515151;
     padding: 56px 0 64px;
 }
-body.detail-program {padding-top: 0;}
+body.detail-program, body.landing {padding-top: 0;}
 .no-margin {margin: 0 !important;}
 .no-padding {padding: 0 !important;}
 .no-border {border: none !important;}
@@ -336,19 +336,20 @@ a.blog-link:hover {
     color: rgb(255 255 255 / .4);
     opacity: 1;
 }
+.top-bar .form-control:-ms-input-placeholder {color: rgb(255 255 255 / .6);}
+.top-bar .form-control::-ms-input-placeholder {color: rgb(255 255 255 / .6);}
 .top-bar .page-title {
     font-size: 18px;
     font-weight: 500;
 }
-.top-bar .form-control:-ms-input-placeholder {color: rgb(255 255 255 / .6);}
-.top-bar .form-control::-ms-input-placeholder {color: rgb(255 255 255 / .6);}
 .top-bar .right-icon {
     font-size: 28px;
-    color: #ffffff;
     line-height: 0;
     margin-top: 6px;
     display: inline-block;
+    color: #333333;
 }
+.top-bar.bg-main .right-icon {color: #ffffff;}
 .navbar {
     position: sticky;
     top: 0;
@@ -414,7 +415,7 @@ a.blog-link:hover {
 .berita-wrapper + .berita-wrapper {margin-top: 12px;}
 .pendanaan-wrapper + .pendanaan-wrapper {margin-top: 32px;}
 .program .owl-stage, .berita .owl-stage, .tokomu-wrapper .owl-stage, 
-.promo .owl-stage {padding-left: 20px !important;}
+.promo .owl-stage, .program-1 .owl-stage {padding-left: 20px !important;}
 .dana-flyer {
     position: relative;
     padding-top: 45%;
@@ -423,6 +424,13 @@ a.blog-link:hover {
     overflow: hidden;
 }
 .dana-flyer.berita-flyer {padding-top: 60%;}
+.landing-flyer {
+    position: relative;
+    padding-top: 100%;
+    color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+}
 .penggalang {
     display: -ms-flexbox;
     display: flex;
@@ -631,7 +639,7 @@ ul.lembaga-wrapper > li > a > img {
     margin-bottom: 0;
 }
 ul.lembaga-wrapper > li + li {margin-left: 2px;}
-.program, .promo, .berita, .tokomu-wrapper, .raudha-wrapper {
+.program, .promo, .berita, .tokomu-wrapper, .raudha-wrapper, .program-1 {
     margin: 0 -20px;
     width: auto !important;
 }
@@ -974,6 +982,75 @@ img.img-program {width: 100% !important;}
     z-index: 9;
 }
 .ubah-profil .notif-wrapper {margin: 0 -20px;}
+.pencarian-landing {
+    padding: 0 20px;
+    margin: -24px 0 -22px;
+}
+.pencarian-landing .form-control {
+    padding: 11px 52px 11px 24px;
+    border-radius: 25px;
+    border: none;
+    box-shadow: 0 4px 12px rgb(0 0 0 / .12);
+}
+.pencarian-landing button {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    padding: 8px 14px;
+    font-size: 20px;
+    border: none;
+    border-radius: 25px;
+    background-color: transparent;
+}
+.owl-dots {margin-top: 12px;}
+.sort-wrapper {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 12px 0 12px 20px;
+    background-color: #ffffff;
+    position: sticky;
+    top: 56px;
+    z-index: 4;
+}
+.sort-box {
+    -ms-flex: 0 0 90px;
+    flex: 0 0 90px;
+    max-width: 90px;
+}
+.cat-box {
+    -ms-flex: 0 0 calc(100% - 90px);
+    flex: 0 0 calc(100% - 90px);
+    max-width: calc(100% - 90px);
+    white-space: nowrap;
+    overflow-x: auto;
+    padding-left: 4px;
+    padding-right: 20px;
+}
+.cat-box > label > input[type="radio"]:checked + .btn {
+    background-color: #09A59D;
+    color: #ffffff;
+}
+.cat-radio {padding: 8px 0 8px 0;}
+.cat-radio > .custom-control-label {width: 100%;}
+.cat-radio .custom-control-label::before, .cat-radio .custom-control-label::after {
+    right: 0;
+    left: auto;
+}
+.search-box .form-control {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border: 1px solid #ced4da;
+    background-color: #ffffff;
+    color: #333333;
+}
+.search-box .form-control::placeholder {
+    color: rgb(0 0 0 / .4);
+    opacity: 1;
+}
+.search-box .form-control:-ms-input-placeholder {color: rgb(0 0 0 / .6);}
+.search-box .form-control::-ms-input-placeholder {color: rgb(0 0 0 / .6);}
 
 
 /* Raudha CSS */
