@@ -172,7 +172,7 @@ img {
 }
 .full-height {height: 100%;}
 a, a:hover {
-    color: #09A59D;
+    color: #065e58;
     cursor: pointer;
     text-decoration: none !important;
 }
@@ -222,7 +222,7 @@ a.blog-link:hover {
 }
 .card-body {padding: 13px;}
 .bg-main {
-    background-color: #09A59D !important;
+    background-color: #065e58 !important;
     color: #ffffff;
 }
 .bg-second {
@@ -277,14 +277,14 @@ a.blog-link:hover {
     z-index: 1;
 }
 .btn-main, .btn-main:hover {
-    background: #09A59D !important;
+    background: #065e58 !important;
     color: #ffffff !important;
     border-color: transparent;
 }
 .btn-outline, .btn-outline:hover {
     background: transparent;
-    border: 2px solid #09A59D;
-    color: #09A59D;
+    border: 2px solid #065e58;
+    color: #065e58;
 }
 .btn.btn-outline:hover:before {display: none;}
 .btn-login {border-radius: 20px;}
@@ -301,7 +301,7 @@ a.blog-link:hover {
     color: #ffffff;
 }
 .form-control {border-radius: 6px;}
-.color-main {color: #09A59D !important;}
+.color-main {color: #065e58 !important;}
 .color-second {color: #213446 !important;}
 .color-default {color: #515151 !important;}
 .wrapper {
@@ -488,7 +488,7 @@ a.blog-link:hover {
 }
 .main-navigation a {color: rgb(9 165 157 / .72);}
 .main-navigation a.active {
-    color: #09A59D;
+    color: #065e58;
     font-weight: 700;
 }
 .search-box {position: relative;}
@@ -625,11 +625,11 @@ ul.lembaga-wrapper > li > a {
     display: block;
     padding: 6px 12px;
     border-radius: 8px;
-    border: 2px solid #09A59D;
-    color: #09A59D;
+    border: 2px solid #065e58;
+    color: #065e58;
 }
 ul.lembaga-wrapper > li > a.active {
-    background-color: #09A59D;
+    background-color: #065e58;
     color: #ffffff;
 }
 ul.lembaga-wrapper > li > a > img {
@@ -713,9 +713,9 @@ ul.lembaga-wrapper > li + li {margin-left: 2px;}
     margin-right: 12px;
 }
 .nav-pills.mumu-tab .nav-link {
-    border: 2px solid #09a59d;
+    border: 2px solid #065e58;
     border-radius: 0;
-    color: #09a59d;
+    color: #065e58;
 }
 .nav-pills.mumu-tab > li + li > .nav-link {border-left: none;}
 .nav-pills.mumu-tab > li:first-child > .nav-link {
@@ -727,20 +727,20 @@ ul.lembaga-wrapper > li + li {margin-left: 2px;}
     border-bottom-right-radius: 6px;
 }
 .nav-pills.mumu-tab .nav-link.active, .nav-pills.mumu-tab .show > .nav-link {
-    background-color: #09a59d;
+    background-color: #065e58;
     color: #ffffff;
 }
 .untuk-org > div {border-radius: 6px;}
 .nominal-zakat {
-    border: 2px solid #09a59d;
-    color: #09a59d;
+    border: 2px solid #065e58;
+    color: #065e58;
     padding: 5px;
     border-radius: 6px;
     text-align: center;
     cursor: pointer;
 }
 .nominal-zakat.selected {
-    background-color: #09a59d;
+    background-color: #065e58;
     color: #ffffff;
 }
 .author-box {
@@ -787,13 +787,13 @@ body.detail-program .top-bar.shrink .program-title {opacity: 1;}
 img.img-program {width: 100% !important;}
 .nav-pills.mumu-nav-pills > li + li > .nav-link {border-left: none;}
 .nav-pills.mumu-nav-pills .nav-link {
-    border: 2px solid #09a59d;
+    border: 2px solid #065e58;
     border-radius: 0;
-    color: #09a59d;
+    color: #065e58;
 }
 .nav-pills.mumu-nav-pills .nav-link.active,
 .nav-pills.mumu-nav-pills .show > .nav-link {
-    background-color: #09a59d;
+    background-color: #065e58;
     color: #ffffff;
 }
 .nav-pills.mumu-nav-pills > li:first-child:not(:last-child) > .nav-link {
@@ -830,14 +830,14 @@ img.img-program {width: 100% !important;}
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    border: 2px solid #09A59D;
+    border: 2px solid #065e58;
     border-radius: 8px;
     padding: 16px;
     -webkit-transition: 0.2s ease-in-out;
     transition: 0.2s ease-in-out;
 }
 .metode-bayar-wrapper > input[type="radio"]:checked + .metode-bayar-box {
-    background-color: #09A59D;
+    background-color: #065e58;
     color: #ffffff;
 }
 .metode-bayar-box > .img-metode {
@@ -1029,7 +1029,7 @@ img.img-program {width: 100% !important;}
     padding-right: 20px;
 }
 .cat-box > label > input[type="radio"]:checked + .btn {
-    background-color: #09A59D;
+    background-color: #065e58;
     color: #ffffff;
 }
 .cat-radio {padding: 8px 0 8px 0;}
