@@ -378,7 +378,8 @@ a.blog-link:hover {
 .bg-slider {
     display: block;
     width: 100%;
-    padding-top: 50%;
+    padding-top: 55%;
+    border-radius: 8px;
 }
 .content.offset {
     position: relative;
@@ -531,12 +532,20 @@ a.blog-link:hover {
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    background-image: url(../img/dmi-vector.svg);
+    background-repeat: no-repeat;
+    background-position: 130px -220px;
 }
 /*.dompet-box.expand {
     position: absolute;
     width: calc(100% - 40px);
     z-index: 9;
 }*/
+.owl-theme .owl-dots .owl-dot span {margin: 5px 2px !important;}
+.program-slider .owl-dots, .program-slider .owl-nav {
+    text-align: left !important;
+    padding: 0 17px;
+}
 .dompet-inner, .dompet-item, .user-box, .rek-wrapper, .notif-wrapper {
     display: -ms-flexbox;
     display: flex;
