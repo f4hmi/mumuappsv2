@@ -152,6 +152,7 @@ h1, h2, h3, h4, h5, h6 {font-weight: bold;}
 .semibold {font-weight: 600 !important;}
 .medium {font-weight: 500 !important;}
 .regular {font-weight: 400 !important;}
+.italic {font-style: italic;}
 .text-muted {
     opacity: 0.7;
     color: inherit !important;
@@ -1251,6 +1252,58 @@ body.detail-program .top-bar.shrink .program-title {opacity: 1;}
 .travel-accordion .ca-header a:after {
     top: 10px;
     right: 0;
+}
+.surat-wrapper {margin: 0 -20px;}
+.ayat-wrapper {
+    margin: 0 -20px;
+    padding: 20px;
+}
+.surat-wrapper + .surat-wrapper {border-top: 1px solid rgb(0 0 0 / .24);}
+.surat-wrapper > a {
+    display: block;
+    color: inherit;
+    padding: 12px 20px;
+}
+.surat-box {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.nomor-surat {
+    -ms-flex: 0 0 43px;
+    flex: 0 0 43px;
+    max-width: 43px;
+    height: 43px;
+    line-height: 43px;
+    text-align: center;
+    background-color: #336633;
+    color: #ffffff;
+    border-radius: 50%;
+}
+.nama-surat {
+    -ms-flex: 0 0 calc(100% - 43px);
+    flex: 0 0 calc(100% - 43px);
+    max-width: calc(100% - 43px);
+    padding-left: 16px;
+}
+.surat-navigasi a, .surat-navigasi a > i {
+    display: block;
+    width: 43px;
+    height: 43px;
+    line-height: 39px;
+    text-align: center;
+    margin: auto;
+}
+.ayat-wrapper + .ayat-wrapper {border-top: 1px solid rgb(0 0 0 / .24);}
+.ayat-surat {
+    font-size: 28px;
+    text-align: right;
+    font-weight: 500;
+}
+.surat-latin-text {
+    font-family: 'Noto Serif', serif;
+    font-style: italic;
 }
 
 
