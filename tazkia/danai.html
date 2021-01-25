@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en" class="full-height">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Ketuk Pintu Tetangga - Tazkia Baitulmal</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="rizzkijo/rizzkijo.css" rel="stylesheet">
+  <link href="vendor/owl-carousel/owl.carousel.min.css" rel="stylesheet">
+  <link href="vendor/owl-carousel/owl.theme.default.min.css" rel="stylesheet">
+
+  <link rel="icon" href="img/logo.png" type="image/x-icon">
+
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.0/css/line.css">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.0/css/solid.css">
+
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <!-- Navigation -->
+    <div class="top-bar bg-main">
+      <a class="back-link" href="#" id="backLink">
+        <i class="uil uil-angle-left"></i>
+      </a>
+      <!-- <span class="program-title">Ketuk Pintu Tetangga</span> -->
+    </div>
+
+    <div class="content bg-white">
+      <div class="text-big bold mb-12">Ketuk Pintu Tetangga</div>
+
+      <form>
+        <div class="form-group mb-32">
+          <label>Masukkan Nominal</label>
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="basic-addon1">Rp</span>
+            </div>
+            <input type="text" class="form-control" placeholder="Contoh: 50000" aria-describedby="basic-addon1">
+          </div>
+        </div>
+
+        <div class="medium text-bigger mb-8">Pilih Metode Pembayaran</div>
+        <div class="accordion menu-kategori">
+          <a class="link-block medium" type="button" data-toggle="collapse" href="#qris" aria-expanded="true" aria-controls="qris">QRIS <i class="uil uil-angle-up"></i></a>
+          <div id="qris" class="collapse show">
+            <label class="metode-bayar-wrapper">
+              <input type="radio" name="metode-bayar" checked>
+              <div class="metode-bayar-box">
+                <div style="background:url(https://mumuapps.id/assets/images/bank/qris_default.png)no-repeat center / contain;" class="img-metode"></div>
+                <div class="metode-bayar-text valign-wrapper">
+                  <div class="valign-box">
+                    <span class="medium">QRIS</span> <span class="text-muted">(Scan menggunakan LinkAja, Gopay, Ovo, Dana, atau layanan QRIS perbankan lainnya)</span>
+                  </div>
+                </div>
+              </div>
+            </label>
+          </div>
+        </div>
+
+        <div class="accordion menu-kategori mt-16">
+          <a class="link-block medium collapsed" type="button" data-toggle="collapse" href="#emoney" aria-expanded="true" aria-controls="emoney">E-Money <i class="uil uil-angle-up"></i></a>
+          <div id="emoney" class="collapse">
+            <label class="metode-bayar-wrapper">
+              <input type="radio" name="metode-bayar">
+              <div class="metode-bayar-box">
+                <div style="background:url(https://mumuapps.id/assets/images/bank/linkaja.png)no-repeat center / contain;" class="img-metode"></div>
+                <div class="metode-bayar-text valign-wrapper">
+                  <div class="valign-box">
+                    <span class="medium">LinkAja</span>
+                  </div>
+                </div>
+              </div>
+            </label>
+            <label class="metode-bayar-wrapper">
+              <input type="radio" name="metode-bayar">
+              <div class="metode-bayar-box">
+                <div style="background:url(https://mumuapps.id/assets/images/bank/ovologo.png)no-repeat center / contain;" class="img-metode"></div>
+                <div class="metode-bayar-text valign-wrapper">
+                  <div class="valign-box">
+                    <span class="medium">OVO (Development)</span>
+                  </div>
+                </div>
+              </div>
+            </label>
+            <label class="metode-bayar-wrapper">
+              <input type="radio" name="metode-bayar">
+              <div class="metode-bayar-box">
+                <div style="background:url(https://mumuapps.id/assets/images/bank/1-shopeepay-square-orange.png)no-repeat center / contain;" class="img-metode"></div>
+                <div class="metode-bayar-text valign-wrapper">
+                  <div class="valign-box">
+                    <span class="medium">ShopeePay</span>
+                  </div>
+                </div>
+              </div>
+            </label>
+          </div>
+        </div>
+
+        <div class="accordion menu-kategori mt-16">
+          <a class="link-block medium collapsed" type="button" data-toggle="collapse" href="#bank" aria-expanded="true" aria-controls="bank">Transfer Bank (Virtual Account) <i class="uil uil-angle-up"></i></a>
+          <div id="bank" class="collapse">
+            <label class="metode-bayar-wrapper">
+              <input type="radio" name="metode-bayar">
+              <div class="metode-bayar-box">
+                <div style="background:url(https://mumuapps.id/assets/images/bank/bank%20mandiri3.png)no-repeat center / contain;" class="img-metode"></div>
+                <div class="metode-bayar-text valign-wrapper">
+                  <div class="valign-box">
+                    <span class="medium">Bank Mandiri</span> <span class="text-muted">(Menerima transfer antar bank)</span>
+                  </div>
+                </div>
+              </div>
+            </label>
+            <label class="metode-bayar-wrapper">
+              <input type="radio" name="metode-bayar">
+              <div class="metode-bayar-box">
+                <div style="background:url(https://mumuapps.id/assets/images/bank/bank%20bni.jpg)no-repeat center / contain;" class="img-metode"></div>
+                <div class="metode-bayar-text valign-wrapper">
+                  <div class="valign-box">
+                    <span class="medium">BNI</span> <span class="text-muted">(Menerima transfer antar bank)</span>
+                  </div>
+                </div>
+              </div>
+            </label>
+            <label class="metode-bayar-wrapper">
+              <input type="radio" name="metode-bayar">
+              <div class="metode-bayar-box">
+                <div style="background:url(https://mumuapps.id/assets/images/bank/bank%20bri.jpg)no-repeat center / contain;" class="img-metode"></div>
+                <div class="metode-bayar-text valign-wrapper">
+                  <div class="valign-box">
+                    <span class="medium">BRI (Bank Rakyat Indonesia)</span>
+                  </div>
+                </div>
+              </div>
+            </label>
+            <label class="metode-bayar-wrapper">
+              <input type="radio" name="metode-bayar">
+              <div class="metode-bayar-box">
+                <div style="background:url(https://mumuapps.id/assets/images/bank/bank%20permata.png)no-repeat center / contain;" class="img-metode"></div>
+                <div class="metode-bayar-text valign-wrapper">
+                  <div class="valign-box">
+                    <span class="medium">Bank Permata</span>
+                  </div>
+                </div>
+              </div>
+            </label>
+            <label class="metode-bayar-wrapper">
+              <input type="radio" name="metode-bayar">
+              <div class="metode-bayar-box">
+                <div style="background:url(https://mumuapps.id/assets/images/bank/cimbclick.png)no-repeat center / contain;" class="img-metode"></div>
+                <div class="metode-bayar-text valign-wrapper">
+                  <div class="valign-box">
+                    <span class="medium">CIMB Click</span>
+                  </div>
+                </div>
+              </div>
+            </label>
+            <label class="metode-bayar-wrapper">
+              <input type="radio" name="metode-bayar">
+              <div class="metode-bayar-box">
+                <div style="background:url(https://mumuapps.id/assets/images/bank/logobsm.png)no-repeat center / contain;" class="img-metode"></div>
+                <div class="metode-bayar-text valign-wrapper">
+                  <div class="valign-box">
+                    <span class="medium">Bank Syariah Mandiri</span>
+                  </div>
+                </div>
+              </div>
+            </label>
+            <label class="metode-bayar-wrapper">
+              <input type="radio" name="metode-bayar">
+              <div class="metode-bayar-box">
+                <div style="background:url(https://mumuapps.id/assets/images/bank/logobris2.jpg)no-repeat center / contain;" class="img-metode"></div>
+                <div class="metode-bayar-text valign-wrapper">
+                  <div class="valign-box">
+                    <span class="medium">BRI Syariah</span>
+                  </div>
+                </div>
+              </div>
+            </label>
+            <label class="metode-bayar-wrapper">
+              <input type="radio" name="metode-bayar">
+              <div class="metode-bayar-box">
+                <div style="background:url(https://mumuapps.id/assets/images/bank/logo_bsmi.png)no-repeat center / contain;" class="img-metode"></div>
+                <div class="metode-bayar-text valign-wrapper">
+                  <div class="valign-box">
+                    <span class="medium">Bank Mega Syariah</span> <span class="text-muted">(Menerima transfer antar bank)</span>
+                  </div>
+                </div>
+              </div>
+            </label>
+            <label class="metode-bayar-wrapper">
+              <input type="radio" name="metode-bayar">
+              <div class="metode-bayar-box">
+                <div style="background:url(https://mumuapps.id/assets/images/bank/Logo_BNI_Syariah.png)no-repeat center / contain;" class="img-metode"></div>
+                <div class="metode-bayar-text valign-wrapper">
+                  <div class="valign-box">
+                    <span class="medium">BNI Syariah</span> <span class="text-muted">(Menerima transfer antar bank)</span>
+                  </div>
+                </div>
+              </div>
+            </label>
+          </div>
+        </div>
+
+        <div class="accordion menu-kategori mt-16">
+          <a class="link-block medium collapsed" type="button" data-toggle="collapse" href="#setor-tunai" aria-expanded="true" aria-controls="setor-tunai">Setor Tunai <i class="uil uil-angle-up"></i></a>
+          <div id="setor-tunai" class="collapse">
+            <label class="metode-bayar-wrapper">
+              <input type="radio" name="metode-bayar">
+              <div class="metode-bayar-box">
+                <div style="background:url(https://mumuapps.id/assets/images/bank/pos%20indonesia.jpg)no-repeat center / contain;" class="img-metode"></div>
+                <div class="metode-bayar-text valign-wrapper">
+                  <div class="valign-box">
+                    <span class="medium">PT POS</span>
+                  </div>
+                </div>
+              </div>
+            </label>
+            <label class="metode-bayar-wrapper">
+              <input type="radio" name="metode-bayar">
+              <div class="metode-bayar-box">
+                <div style="background:url(https://mumuapps.id/assets/images/bank/alfamart.jpg)no-repeat center / contain;" class="img-metode"></div>
+                <div class="metode-bayar-text valign-wrapper">
+                  <div class="valign-box">
+                    <span class="medium">Alfamart</span>
+                  </div>
+                </div>
+              </div>
+            </label>
+            <label class="metode-bayar-wrapper">
+              <input type="radio" name="metode-bayar">
+              <div class="metode-bayar-box">
+                <div style="background:url(https://mumuapps.id/assets/images/bank/logoalfamidi.png)no-repeat center / contain;" class="img-metode"></div>
+                <div class="metode-bayar-text valign-wrapper">
+                  <div class="valign-box">
+                    <span class="medium">Alfamidi</span>
+                  </div>
+                </div>
+              </div>
+            </label>
+            <label class="metode-bayar-wrapper">
+              <input type="radio" name="metode-bayar">
+              <div class="metode-bayar-box">
+                <div style="background:url(https://mumuapps.id/assets/images/bank/logodandan.png)no-repeat center / contain;" class="img-metode"></div>
+                <div class="metode-bayar-text valign-wrapper">
+                  <div class="valign-box">
+                    <span class="medium">DanDan</span>
+                  </div>
+                </div>
+              </div>
+            </label>
+            <label class="metode-bayar-wrapper">
+              <input type="radio" name="metode-bayar">
+              <div class="metode-bayar-box">
+                <div style="background:url(https://mumuapps.id/assets/images/bank/logopegadaian.png)no-repeat center / contain;" class="img-metode"></div>
+                <div class="metode-bayar-text valign-wrapper">
+                  <div class="valign-box">
+                    <span class="medium">Pegadaian</span>
+                  </div>
+                </div>
+              </div>
+            </label>
+          </div>
+        </div>
+
+        <div class="accordion menu-kategori mt-16">
+          <a class="link-block medium collapsed" type="button" data-toggle="collapse" href="#saldo" aria-expanded="true" aria-controls="saldo">Dompet <i class="uil uil-angle-up"></i></a>
+          <div id="saldo" class="collapse">
+            <label class="metode-bayar-wrapper">
+              <input type="radio" name="metode-bayar">
+              <div class="metode-bayar-box">
+                <div style="background:url(https://mumuapps.id/assets/images/bank/logoduit.png)no-repeat center / contain;" class="img-metode"></div>
+                <div class="metode-bayar-text valign-wrapper">
+                  <div class="valign-box">
+                    <span class="medium">DuitMu</span>
+                  </div>
+                </div>
+              </div>
+            </label>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <div class="content bg-white mt-8">
+      <div class="text-center">
+        <a href="register.html">Dafar</a> atau lengkapi data di bawah ini.
+      </div>
+
+      <form class="mt-20">
+        <div class="form-group">
+          <label>Nama</label>
+          <input type="text" class="form-control" placeholder="Ketik nama Anda">
+        </div>
+        <div class="form-group">
+          <label>No. Handphone</label>
+          <input type="text" class="form-control" placeholder="Ketik no. handphone Anda">
+        </div>
+        <div class="form-group">
+          <label>Email</label>
+          <input type="text" class="form-control" placeholder="Ketik email Anda">
+        </div>
+        <div class="form-group">
+          <label>Komentar Dukungan Anda <span class="text-muted">(optional)</span></label>
+          <textarea class="form-control" rows="3" placeholder="Beri komentar, doa, atau dukunagn Anda"></textarea>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div class="main-navigation">
+    <div class="wrapper">
+      <a href="danai.html" class="btn btn-main btn-block"><span><i class="uil uil-arrow-right"></i> Lanjutkan Pembayaran</span></a>
+    </div>
+  </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.slim.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="vendor/owl-carousel/owl.carousel.min.js"></script>
+  <script src="rizzkijo/rizzkijo.js"></script>
+
+</body>
+
+</html>
