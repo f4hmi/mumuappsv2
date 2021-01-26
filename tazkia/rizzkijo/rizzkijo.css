@@ -470,7 +470,7 @@ a.card {color: inherit;}
     flex: 0 0 40px;
     max-width: 40px;
     height: 40px;
-    background-color: rgb(0 0 0 / .2);
+    background-color: #ffffff;
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
@@ -833,6 +833,14 @@ body.detail-program .top-bar.shrink .program-title {opacity: 1;}
     background-color: rgba(0 0 0 / .6);
     border-radius: 0 0 24px 24px;
     content: "";
+}
+.dana-judul {
+    font-weight: 500;
+    margin-bottom: 8px;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 .img-program > .dana-judul-single {
     position: relative;
