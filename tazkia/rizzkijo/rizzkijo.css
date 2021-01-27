@@ -153,7 +153,7 @@ h1, h2, h3, h4, h5, h6 {font-weight: bold;}
 .medium {font-weight: 500 !important;}
 .regular {font-weight: 400 !important;}
 .text-muted {
-    opacity: 0.65;
+    opacity: 0.84;
     color: inherit !important;
 }
 .text-small {font-size: 80% !important;}
@@ -948,12 +948,17 @@ body.detail-program .top-bar.shrink .program-title {opacity: 1;}
     box-shadow: 8px 8px 12px rgb(0 0 0 / .08), inset 8px 8px 20px rgb(0 0 0 / .04);
     margin-bottom: 12px;
 }
+.npwz-card {
+    border: 1px solid rgb(0 0 0 / .12);
+    border-radius: 8px;
+    box-shadow: 0 12px 28px -16px rgb(0 0 0 / .6);
+}
 .npwz-attr {
     position: absolute;
     right: 20px;
-    bottom: 18%;
+    bottom: 22%;
     left: 20px;
-    color: #5d4913;
+    color: #001249;
     /*text-shadow: 1px 1px 2px rgb(0 0 0 / .4);*/
 }
 .custom-accordion.minus-margin {margin: -20px -20px 0;}
@@ -1006,7 +1011,7 @@ body.detail-program .top-bar.shrink .program-title {opacity: 1;}
     -ms-flex: 0 0 calc(100% - 68px);
     flex: 0 0 calc(100% - 68px);
     max-width: calc(100% - 68px);
-    padding-left: 12px;
+    padding-left: 16px;
 }
 .text-ellipsis {
     max-width: 100%;
