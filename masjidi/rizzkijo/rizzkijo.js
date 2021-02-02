@@ -18,3 +18,5 @@ $(document).ready(function(){
 $(window).scroll(function(){
 	$('#detailProgramBar').toggleClass('shrink', $(this).scrollTop() > 56);
 });
+
+(".text-limit-1").text($(this).text().substr(0, 75)+'...');
