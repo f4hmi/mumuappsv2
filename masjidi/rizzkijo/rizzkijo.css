@@ -1351,6 +1351,7 @@ body.detail-program .top-bar.shrink .program-title {opacity: 1;}
     z-index: 9;
 }
 .option-box > .dropdown-toggle::after {display: none;}
+.nama-produk-toko {height: 39px;}
 
 
 

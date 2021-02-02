@@ -14,7 +14,12 @@ $(document).ready(function(){
 	    $('.uil-cari').toggleClass('d-none');
 	    $('.uil-times').toggleClass('d-none');
 	});
-})
+});
+
 $(window).scroll(function(){
 	$('#detailProgramBar').toggleClass('shrink', $(this).scrollTop() > 56);
+});
+
+$(".nama-produk-toko").text(function(){
+    return $(this).text().length > 30 ? $(this).text().substr(0, 30)+'...' : $(this).text();
 });
