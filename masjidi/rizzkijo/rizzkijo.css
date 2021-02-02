@@ -589,6 +589,7 @@ a.blog-link:hover {
     text-align: left !important;
     padding: 0 17px;
 }
+
 .dompet-inner, .user-box, .rek-wrapper, .notif-wrapper {
     display: -ms-flexbox;
     display: flex;
